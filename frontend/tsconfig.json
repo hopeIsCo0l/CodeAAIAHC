@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./app/*"]
+    }
+  },
+  "include": ["app", "tanstack.config.ts"],
+  "references": []
+}
